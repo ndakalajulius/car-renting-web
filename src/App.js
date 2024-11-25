@@ -6,6 +6,7 @@ import LoginPage from './components/Auth/LoginPage';
 import AdminDashboard from './components/Admin/AdminDashboard';
 import ProtectedRoute from './utils/ProtectedRoute';
 import PaymentSuccess from './components/Payment/PaymentSuccess';
+import SignupPage from './components/Auth/SignupPage';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/login" element={<LoginPage />} />
+          <Route path="/loginpage" element={<LoginPage />} />
+          <Route path="/signuppage" element={<SignupPage />} />
           <Route path="/payment-success" element={<PaymentSuccess />} />
           <Route
             path="/admin"

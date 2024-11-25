@@ -1,0 +1,104 @@
+/* LoginPage.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+  }
+  
+  .login-card {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Card hover effect */
+  }
+  
+  .login-card:hover {
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  }
+  
+  .login-card h1 {
+    color: #333;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-group input:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 10px rgba(37, 117, 252, 0.2); /* Subtle glow effect on focus */
+  }
+  
+  .login-button {
+    background-color: #2575fc;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .login-button:hover {
+    background-color: #1f66d8;
+    transform: translateY(-2px); /* Button hover lift effect */
+  }
+  
+  .redirect-text {
+    font-size: 0.95em;
+    color: #555;
+    margin-top: 20px;
+  }
+  
+  .redirect-text .signup-link {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .redirect-text .signup-link:hover {
+    text-decoration: underline;
+  }
+  

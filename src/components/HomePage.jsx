@@ -8,7 +8,7 @@ const HomePage = () => {
       <header className="home-header">
         <h1 className="main-title">Welcome to Car Rentals</h1>
         <p className="subheading">Your journey starts here!</p>
-        <Link to="/vehicles" className="explore-button">
+        <Link to="/LoginPage" className="explore-button">
           Explore Our Fleet
         </Link>
       </header>
