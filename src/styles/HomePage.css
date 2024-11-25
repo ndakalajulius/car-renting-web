@@ -1,0 +1,81 @@
+/* Container for the entire homepage */
+.home-container {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    padding: 40px 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Header section styling */
+  .home-header {
+    margin-bottom: 60px;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subheading {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .explore-button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .explore-button:hover {
+    background-color: #e6b800;
+    color: white;
+  }
+  
+  /* Promotion section styling */
+  .promotion-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promotion-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .promotion-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .promotion-link {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .promotion-link:hover {
+    background-color: #0056b3;
+  }
+  

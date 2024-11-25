@@ -1,0 +1,43 @@
+/* Container */
+.booking-listing-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .booking-listing-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Table Styles */
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .booking-table th, .booking-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .booking-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .booking-table tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* No bookings message */
+  .booking-listing-container p {
+    color: #555;
+    font-size: 1.2rem;
+  }
+  

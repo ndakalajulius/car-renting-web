@@ -1,0 +1,68 @@
+/* Container */
+.vehicle-details-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  .vehicle-details-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Vehicle Info Section */
+  .vehicle-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  /* Vehicle Image */
+  .vehicle-image {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+  }
+  
+  /* Vehicle Details */
+  .vehicle-details {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .vehicle-details h2 {
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .vehicle-details p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Rent Now Button */
+  .btn-rent {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-rent:hover {
+    background-color: #0056b3;
+  }
+  

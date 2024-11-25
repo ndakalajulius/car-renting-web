@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './components/Auth/AuthContext';
+import AuthProvider from './components/Auth/AuthContext'; // Default import
 import HomePage from './components/HomePage';
 import LoginPage from './components/Auth/LoginPage';
 import AdminDashboard from './components/Admin/AdminDashboard';

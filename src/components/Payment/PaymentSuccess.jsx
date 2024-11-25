@@ -1,4 +1,7 @@
 import React from 'react';
+import '../../styles/PaymentSuccess.css';
+
+
 
 const PaymentSuccess = () => {
   return (
