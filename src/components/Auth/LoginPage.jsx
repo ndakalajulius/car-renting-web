@@ -17,7 +17,7 @@ const LoginPage = () => {
         const { token, role } = response.data;
         login(token, role); // Save authentication details in context
         alert('Login successful!');
-        navigate('/booking'); // Redirect to booking page
+        navigate('/manage-vehicles'); // Redirect to booking page
       })
       .catch((error) => {
         console.error('Login failed:', error);

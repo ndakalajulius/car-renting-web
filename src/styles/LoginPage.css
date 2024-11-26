@@ -1,104 +1,83 @@
 /* LoginPage.css */
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+.login-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-  }
-  
-  .login-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: transparent;
+    background-color: #f4f7fc;
+    padding: 20px;
   }
   
   .login-card {
-    background-color: #ffffff;
-    padding: 40px 50px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow */
-    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    padding: 40px;
     max-width: 400px;
+    width: 100%;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Card hover effect */
-  }
-  
-  .login-card:hover {
-    transform: translateY(-5px); /* Subtle lift effect */
-    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
   }
   
   .login-card h1 {
-    color: #333;
-    font-size: 2.2em;
     margin-bottom: 20px;
-    font-weight: 600;
+    font-size: 2rem;
+    color: #333;
   }
   
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     text-align: left;
   }
   
   .form-group label {
-    display: block;
-    font-size: 1em;
+    font-size: 1rem;
     color: #555;
-    margin-bottom: 8px;
-    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
   }
   
   .form-group input {
     width: 100%;
-    padding: 15px;
-    font-size: 1.1em;
+    padding: 10px;
     border: 1px solid #ddd;
-    border-radius: 8px;
-    transition: border-color 0.3s, box-shadow 0.3s;
+    border-radius: 4px;
+    font-size: 1rem;
+    outline: none;
+    transition: border 0.3s ease;
   }
   
   .form-group input:focus {
-    border-color: #2575fc;
-    outline: none;
-    box-shadow: 0 0 10px rgba(37, 117, 252, 0.2); /* Subtle glow effect on focus */
+    border-color: #0056b3;
   }
   
   .login-button {
-    background-color: #2575fc;
-    color: #fff;
-    font-size: 1.1em;
-    padding: 15px 20px;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
     border: none;
-    border-radius: 8px;
+    border-radius: 4px;
+    font-size: 1rem;
     cursor: pointer;
     width: 100%;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s ease;
   }
   
   .login-button:hover {
-    background-color: #1f66d8;
-    transform: translateY(-2px); /* Button hover lift effect */
+    background-color: #004494;
   }
   
   .redirect-text {
-    font-size: 0.95em;
-    color: #555;
     margin-top: 20px;
+    font-size: 0.9rem;
+    color: #555;
   }
   
-  .redirect-text .signup-link {
-    color: #2575fc;
+  .signup-link {
+    color: #0056b3;
     text-decoration: none;
-    font-weight: 600;
   }
   
-  .redirect-text .signup-link:hover {
+  .signup-link:hover {
     text-decoration: underline;
   }
   
