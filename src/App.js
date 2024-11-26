@@ -7,6 +7,7 @@ import AdminDashboard from './components/Admin/AdminDashboard';
 import ProtectedRoute from './utils/ProtectedRoute';
 import PaymentSuccess from './components/Payment/PaymentSuccess';
 import SignupPage from './components/Auth/SignupPage';
+import ManageVehicles from './components/Admin/ManageVehicles';
 
 const App = () => {
   return (
@@ -14,8 +15,9 @@ const App = () => {
       <Router>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/signup" element={<SignupPage />} />
           <Route path="/loginpage" element={<LoginPage />} />
-          <Route path="/signuppage" element={<SignupPage />} />
+          <Route path="/manage-vehicles" element={<ManageVehicles />} />
           <Route path="/payment-success" element={<PaymentSuccess />} />
           <Route
             path="/admin"
