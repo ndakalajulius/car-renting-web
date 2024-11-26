@@ -1,6 +1,6 @@
 import React from "react";
-import BookingForm from "./BookingForm";
-import "../../styles/VehicleDetails.css"; // Optional for additional styling
+import BookingForm from '../BookingForm';
+// import "../styles/VehicleDetails.css"; // Optional for additional styling
 
 const VehicleDetails = ({ vehicle }) => {
   return (

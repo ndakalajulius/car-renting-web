@@ -6,7 +6,7 @@ import VehicleDetails from "./components/Vehicles/VehicleDetails";
 import BookingForm from "./components/BookingForm";
 import LoginPage from "./components/Auth/LoginPage";
 import SignupPage from "./components/Auth/SignupPage";
-import ProtectedRoute from "./components/ProtectedRoute";
+import ProtectedRoute from "./utils/ProtectedRoute";
 
 const App = () => {
   return (

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import "../../styles/BookingForm.css";
+import "../styles/BookingForm.css";
 
 const BookingForm = ({ vehicle }) => {
   const [formData, setFormData] = useState({
